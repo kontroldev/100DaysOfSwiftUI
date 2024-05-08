@@ -1,7 +1,8 @@
 
 # Curso de Formación de SwiftUI
 
-![Imagen de portada](https://www.hackingwithswift.com/100/swiftui)
+![1 -100-Days-of-SwiftUI-Hacking-with-Swift-1](https://github.com/kontroldev/100DaysOfSwiftUI/assets/75795616/7cb07dc0-87b7-43dd-b64c-9a3d2f168773)
+
 
 ## Descripción
 
