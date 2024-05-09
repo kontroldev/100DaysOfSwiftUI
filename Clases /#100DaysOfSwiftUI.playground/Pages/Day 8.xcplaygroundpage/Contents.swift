@@ -5,7 +5,7 @@ import Foundation
 
 //Agregar parámetros a las funciones nos permite agregar puntos de personalización, para que las funciones puedan operar con diferentes datos dependiendo de nuestras necesidades. A veces queremos que estos puntos de personalización estén disponibles para mantener nuestro código flexible, pero otras veces no quieres pensar en ello, quieres lo mismo nueve de cada diez veces.
 
-    //Por ejemplo, anteriormente vimos esta función:
+//Por ejemplo, anteriormente vimos esta función:
 func printTimesTables(for number: Int, end: Int) {
     for i in 1...end {     // comienza con el numero 1, hasta el infinito.
         print("\(i) x \(number) is \(i * number)")
@@ -14,7 +14,7 @@ func printTimesTables(for number: Int, end: Int) {
 
 printTimesTables(for: 5, end: 20)
 
-// 
+//
 func printTimesTables2(for number: Int, end: Int = 12) {
     for i in 1...end {
         print("\(i) x \(number) is \(i * number)")
@@ -75,13 +75,13 @@ func checkPassword(_ password: String) throws -> String {
  Manejar cualquier error lanzado usando catch.*/
 
 // Enpseudocodigo se ve asi: 👇
-do {
+/*do {
     try someRiskyWork()
 } catch {
     print("Handle error here")
-}
+}*/
 
-// Si quisiéramos escribir, prueba eso usando nuestra función actual checkPassword(), podríamos escribir esto.
+// Si quisiéramos escribir, usando nuestra función actual checkPassword(), podríamos escribir esto.
 let string = "12345"
 
 do {
@@ -91,13 +91,73 @@ do {
     print("There was an error.")
 }
 
-//Si la función checkPassword() funciona correctamente, devolverá un valor en el resultado, que luego se imprimirá. Pero si se produce algún error (que en este caso habrá), el mensaje de clasificación de la contraseña nunca se imprimirá; la ejecución saltará inmediatamente al bloque de captura.
+//Si la función checkPassword() funciona correctamente, devolverá un valor en el resultado, que luego imprimirá. Pero si se produce algún error (que en este caso habrá), el mensaje de clasificación de la contraseña nunca se imprimirá; la ejecución saltará inmediatamente al bloque de captura.
 
-//Cuando usas try, necesitas estar dentro de un bloque de 'do', y asegurarte de tener uno o más bloques de captura capaces de manejar cualquier error. ¡En algunas circunstancias puedes usar una alternativa escrita como prueba! Que no requiere hacer y atrapar, pero bloqueará su código si se lanza un error - debe usar esto rara vez, y solo si está absolutamente seguro de que no se puede lanzar un error.
+//Cuando usas try, necesitas estar dentro de un bloque to 'do', y asegurarte de tener uno o más bloques de captura capaces de manejar cualquier error. ¡En algunas circunstancias puedes usar una alternativa escrita como 'try!' Que no requiere hacer y capturar, pero bloqueará su código si se lanza un error - debe usar esto rara vez, y solo si está absolutamente seguro de que no se puede lanzar un error.
 
+/// *Cuando se trata de detectar errores, siempre debe tener un bloque de captura que sea capaz de manejar todo tipo de errores. Sin embargo, también puedes detectar errores específicos.*
+///
 let string2 = "12345"
 
 do {
-    let result = try checkPassword(string)
-    print("Password rating")
-} catch PasswordError.short +´
+    let result2 = try checkPassword(string)
+    print("Password rating \(result2)")
+          } catch PasswordError.short {
+        print("Please use a longer password")
+    } catch PasswordError.obvious {
+        print("I have the same combination on my luggage!")
+    } catch {
+        print("The was an error.")
+    }
+
+/// *Consejo: La mayoría de los errores lanzados por Apple proporcionan un mensaje significativo que puede presentar a su usuario si es necesario. Swift hace que esto esté disponible utilizando un valor de error que se proporciona automáticamente dentro de su bloque de captura, y es común leer error.localizedDescription para ver exactamente lo que sucedió.*
+
+//MRAK: - Checkpoint 4
+
+enum ErrorDeRaizCuadrada: Error {
+    case fueraDeRango
+    case sinRaiz
+}
+
+func raizCuadradaEntera(_ numero: Int) throws -> Int {
+    guard (1...10_000).contains(numero) else {
+        throw ErrorDeRaizCuadrada.fueraDeRango
+    }
+    
+    guard numero >= 0 else {
+        throw ErrorDeRaizCuadrada.sinRaiz
+    }
+    
+    var bajo = 0
+    var alto = numero
+    
+    while bajo <= alto {
+        let medio = (bajo + alto) / 2
+        let cuadrado = medio * medio
+        
+        if cuadrado == numero {
+            return medio
+        } else if cuadrado < numero {
+            bajo = medio + 1
+        } else {
+            alto = medio - 1
+        }
+    }
+    
+    throw ErrorDeRaizCuadrada.sinRaiz
+}
+
+// Ejemplo
+do {
+    let resultado = try raizCuadradaEntera(25) // Esto devolverá 5
+    print("Raíz cuadrada: \(resultado)")
+    
+    let resultado2 = try raizCuadradaEntera(17) // Esto lanzará un error sinRaiz
+    print("Raíz cuadrada: \(resultado2)")
+    
+    let resultado3 = try raizCuadradaEntera(10001) // Esto lanzará un error fueraDeRango
+    print("Raíz cuadrada: \(resultado3)")
+} catch let error {
+    print("Error: \(error)")
+}
+
