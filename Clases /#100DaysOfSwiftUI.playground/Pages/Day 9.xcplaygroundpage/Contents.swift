@@ -246,3 +246,18 @@ doImportantWork {
 }
 
 //Tener tres cierres finales no es tan raro como cabría esperar. Por ejemplo, hacer una sección de contenido en SwiftUI se hace con tres cierres finales: uno para el contenido en sí, uno para un encabezado que se pondrá arriba y otro para un pie de página que se pondrá abajo.
+
+
+/// **Punto de control 5
+ 
+let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+
+// Filtrar números pares, luego ordenar y mapear a String
+luckyNumbers
+    .filter { $0 % 2 == 1 } // Filtra números impares (resto de división por 2 es 1)
+    .sorted() // Ordena los números filtrados en orden ascendente
+    .map { "\($0) is a lucky number" } // Mapea cada número a la cadena deseada
+
+    // Imprime cada elemento de la Array restante en una línea
+    .forEach { print($0) }
+
