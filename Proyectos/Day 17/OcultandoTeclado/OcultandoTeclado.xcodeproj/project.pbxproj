@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3C3DB1F2C20A46F007CE480 /* OcultandoTecladoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3DB1E2C20A46F007CE480 /* OcultandoTecladoApp.swift */; };
-		B3C3DB212C20A46F007CE480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3DB202C20A46F007CE480 /* ContentView.swift */; };
-		B3C3DB232C20A470007CE480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C3DB222C20A470007CE480 /* Assets.xcassets */; };
-		B3C3DB262C20A470007CE480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C3DB252C20A470007CE480 /* Preview Assets.xcassets */; };
+		B3C4DE722C32BAF100A59EDC /* OcultandoTecladoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4DE712C32BAF100A59EDC /* OcultandoTecladoApp.swift */; };
+		B3C4DE742C32BAF100A59EDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4DE732C32BAF100A59EDC /* ContentView.swift */; };
+		B3C4DE762C32BAF100A59EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C4DE752C32BAF100A59EDC /* Assets.xcassets */; };
+		B3C4DE792C32BAF100A59EDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C4DE782C32BAF100A59EDC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3C3DB1B2C20A46F007CE480 /* OcultandoTeclado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcultandoTeclado.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3C3DB1E2C20A46F007CE480 /* OcultandoTecladoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcultandoTecladoApp.swift; sourceTree = "<group>"; };
-		B3C3DB202C20A46F007CE480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B3C3DB222C20A470007CE480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3C3DB252C20A470007CE480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3C4DE6E2C32BAF100A59EDC /* OcultandoTeclado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcultandoTeclado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C4DE712C32BAF100A59EDC /* OcultandoTecladoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcultandoTecladoApp.swift; sourceTree = "<group>"; };
+		B3C4DE732C32BAF100A59EDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3C4DE752C32BAF100A59EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C4DE782C32BAF100A59EDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B3C3DB182C20A46F007CE480 /* Frameworks */ = {
+		B3C4DE6B2C32BAF100A59EDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B3C3DB122C20A46F007CE480 = {
+		B3C4DE652C32BAF000A59EDC = {
 			isa = PBXGroup;
 			children = (
-				B3C3DB1D2C20A46F007CE480 /* OcultandoTeclado */,
-				B3C3DB1C2C20A46F007CE480 /* Products */,
+				B3C4DE702C32BAF100A59EDC /* OcultandoTeclado */,
+				B3C4DE6F2C32BAF100A59EDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B3C3DB1C2C20A46F007CE480 /* Products */ = {
+		B3C4DE6F2C32BAF100A59EDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3C3DB1B2C20A46F007CE480 /* OcultandoTeclado.app */,
+				B3C4DE6E2C32BAF100A59EDC /* OcultandoTeclado.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3C3DB1D2C20A46F007CE480 /* OcultandoTeclado */ = {
+		B3C4DE702C32BAF100A59EDC /* OcultandoTeclado */ = {
 			isa = PBXGroup;
 			children = (
-				B3C3DB1E2C20A46F007CE480 /* OcultandoTecladoApp.swift */,
-				B3C3DB202C20A46F007CE480 /* ContentView.swift */,
-				B3C3DB222C20A470007CE480 /* Assets.xcassets */,
-				B3C3DB242C20A470007CE480 /* Preview Content */,
+				B3C4DE712C32BAF100A59EDC /* OcultandoTecladoApp.swift */,
+				B3C4DE732C32BAF100A59EDC /* ContentView.swift */,
+				B3C4DE752C32BAF100A59EDC /* Assets.xcassets */,
+				B3C4DE772C32BAF100A59EDC /* Preview Content */,
 			);
 			path = OcultandoTeclado;
 			sourceTree = "<group>";
 		};
-		B3C3DB242C20A470007CE480 /* Preview Content */ = {
+		B3C4DE772C32BAF100A59EDC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B3C3DB252C20A470007CE480 /* Preview Assets.xcassets */,
+				B3C4DE782C32BAF100A59EDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3C3DB1A2C20A46F007CE480 /* OcultandoTeclado */ = {
+		B3C4DE6D2C32BAF100A59EDC /* OcultandoTeclado */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3C3DB292C20A470007CE480 /* Build configuration list for PBXNativeTarget "OcultandoTeclado" */;
+			buildConfigurationList = B3C4DE7C2C32BAF100A59EDC /* Build configuration list for PBXNativeTarget "OcultandoTeclado" */;
 			buildPhases = (
-				B3C3DB172C20A46F007CE480 /* Sources */,
-				B3C3DB182C20A46F007CE480 /* Frameworks */,
-				B3C3DB192C20A46F007CE480 /* Resources */,
+				B3C4DE6A2C32BAF100A59EDC /* Sources */,
+				B3C4DE6B2C32BAF100A59EDC /* Frameworks */,
+				B3C4DE6C2C32BAF100A59EDC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = OcultandoTeclado;
 			productName = OcultandoTeclado;
-			productReference = B3C3DB1B2C20A46F007CE480 /* OcultandoTeclado.app */;
+			productReference = B3C4DE6E2C32BAF100A59EDC /* OcultandoTeclado.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B3C3DB132C20A46F007CE480 /* Project object */ = {
+		B3C4DE662C32BAF000A59EDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					B3C3DB1A2C20A46F007CE480 = {
+					B3C4DE6D2C32BAF100A59EDC = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = B3C3DB162C20A46F007CE480 /* Build configuration list for PBXProject "OcultandoTeclado" */;
+			buildConfigurationList = B3C4DE692C32BAF000A59EDC /* Build configuration list for PBXProject "OcultandoTeclado" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = B3C3DB122C20A46F007CE480;
-			productRefGroup = B3C3DB1C2C20A46F007CE480 /* Products */;
+			mainGroup = B3C4DE652C32BAF000A59EDC;
+			productRefGroup = B3C4DE6F2C32BAF100A59EDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3C3DB1A2C20A46F007CE480 /* OcultandoTeclado */,
+				B3C4DE6D2C32BAF100A59EDC /* OcultandoTeclado */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3C3DB192C20A46F007CE480 /* Resources */ = {
+		B3C4DE6C2C32BAF100A59EDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C3DB262C20A470007CE480 /* Preview Assets.xcassets in Resources */,
-				B3C3DB232C20A470007CE480 /* Assets.xcassets in Resources */,
+				B3C4DE792C32BAF100A59EDC /* Preview Assets.xcassets in Resources */,
+				B3C4DE762C32BAF100A59EDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B3C3DB172C20A46F007CE480 /* Sources */ = {
+		B3C4DE6A2C32BAF100A59EDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C3DB212C20A46F007CE480 /* ContentView.swift in Sources */,
-				B3C3DB1F2C20A46F007CE480 /* OcultandoTecladoApp.swift in Sources */,
+				B3C4DE742C32BAF100A59EDC /* ContentView.swift in Sources */,
+				B3C4DE722C32BAF100A59EDC /* OcultandoTecladoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B3C3DB272C20A470007CE480 /* Debug */ = {
+		B3C4DE7A2C32BAF100A59EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		B3C3DB282C20A470007CE480 /* Release */ = {
+		B3C4DE7B2C32BAF100A59EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +264,7 @@
 			};
 			name = Release;
 		};
-		B3C3DB2A2C20A470007CE480 /* Debug */ = {
+		B3C4DE7D2C32BAF100A59EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -284,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kontrol-Design-Studios.OcultandoTeclado";
+				PRODUCT_BUNDLE_IDENTIFIER = "kontrol-design-studio.OcultandoTeclado";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		B3C3DB2B2C20A470007CE480 /* Release */ = {
+		B3C4DE7E2C32BAF100A59EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -312,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kontrol-Design-Studios.OcultandoTeclado";
+				PRODUCT_BUNDLE_IDENTIFIER = "kontrol-design-studio.OcultandoTeclado";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3C3DB162C20A46F007CE480 /* Build configuration list for PBXProject "OcultandoTeclado" */ = {
+		B3C4DE692C32BAF000A59EDC /* Build configuration list for PBXProject "OcultandoTeclado" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3C3DB272C20A470007CE480 /* Debug */,
-				B3C3DB282C20A470007CE480 /* Release */,
+				B3C4DE7A2C32BAF100A59EDC /* Debug */,
+				B3C4DE7B2C32BAF100A59EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3C3DB292C20A470007CE480 /* Build configuration list for PBXNativeTarget "OcultandoTeclado" */ = {
+		B3C4DE7C2C32BAF100A59EDC /* Build configuration list for PBXNativeTarget "OcultandoTeclado" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3C3DB2A2C20A470007CE480 /* Debug */,
-				B3C3DB2B2C20A470007CE480 /* Release */,
+				B3C4DE7D2C32BAF100A59EDC /* Debug */,
+				B3C4DE7E2C32BAF100A59EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B3C3DB132C20A46F007CE480 /* Project object */;
+	rootObject = B3C4DE662C32BAF000A59EDC /* Project object */;
 }

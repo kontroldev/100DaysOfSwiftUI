@@ -2,7 +2,7 @@
 //  PickerUserApp.swift
 //  PickerUser
 //
-//  Created by Raúl Gallego Alonso on 3/6/24.
+//  Created by Raúl Gallego Alonso on 28/6/24.
 //
 
 import SwiftUI

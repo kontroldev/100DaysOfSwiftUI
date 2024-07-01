@@ -7,32 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B36D22DA2C082FF7000EE794 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36D22D92C082FF7000EE794 /* WeSplitApp.swift */; };
-		B36D22DC2C082FF7000EE794 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36D22DB2C082FF7000EE794 /* ContentView.swift */; };
-		B36D22DE2C082FF8000EE794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36D22DD2C082FF8000EE794 /* Assets.xcassets */; };
-		B36D22E12C082FF8000EE794 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36D22E02C082FF8000EE794 /* Preview Assets.xcassets */; };
-		B371129D2C09E03F00199885 /* Crear formulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371129C2C09E03F00199885 /* Crear formulario.swift */; };
-		B37112A02C09E57600199885 /* Barra navegacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371129F2C09E57600199885 /* Barra navegacion.swift */; };
-		B37112A22C09F2AC00199885 /* Modificador de estado.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37112A12C09F2AC00199885 /* Modificador de estado.swift */; };
-		B37112A42C0A33EF00199885 /* Estado enlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37112A32C0A33EF00199885 /* Estado enlaces.swift */; };
-		B37112A62C0A532400199885 /* VistasBucle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37112A52C0A532400199885 /* VistasBucle.swift */; };
+		B3480DB52C2AD56500C1F397 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3480DB42C2AD56500C1F397 /* WeSplitApp.swift */; };
+		B3480DB72C2AD56500C1F397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3480DB62C2AD56500C1F397 /* ContentView.swift */; };
+		B3480DB92C2AD56700C1F397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3480DB82C2AD56700C1F397 /* Assets.xcassets */; };
+		B3480DBC2C2AD56700C1F397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3480DBB2C2AD56700C1F397 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B36D22D62C082FF7000EE794 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B36D22D92C082FF7000EE794 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		B36D22DB2C082FF7000EE794 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B36D22DD2C082FF8000EE794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B36D22E02C082FF8000EE794 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B371129C2C09E03F00199885 /* Crear formulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crear formulario.swift"; sourceTree = "<group>"; };
-		B371129F2C09E57600199885 /* Barra navegacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Barra navegacion.swift"; sourceTree = "<group>"; };
-		B37112A12C09F2AC00199885 /* Modificador de estado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modificador de estado.swift"; sourceTree = "<group>"; };
-		B37112A32C0A33EF00199885 /* Estado enlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Estado enlaces.swift"; sourceTree = "<group>"; };
-		B37112A52C0A532400199885 /* VistasBucle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistasBucle.swift; sourceTree = "<group>"; };
+		B3480DB12C2AD56500C1F397 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3480DB42C2AD56500C1F397 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		B3480DB62C2AD56500C1F397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3480DB82C2AD56700C1F397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3480DBB2C2AD56700C1F397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B36D22D32C082FF7000EE794 /* Frameworks */ = {
+		B3480DAE2C2AD56500C1F397 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,64 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B36D22CD2C082FF7000EE794 = {
+		B3480DA82C2AD56500C1F397 = {
 			isa = PBXGroup;
 			children = (
-				B36D22D82C082FF7000EE794 /* WeSplit */,
-				B36D22D72C082FF7000EE794 /* Products */,
+				B3480DB32C2AD56500C1F397 /* WeSplit */,
+				B3480DB22C2AD56500C1F397 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B36D22D72C082FF7000EE794 /* Products */ = {
+		B3480DB22C2AD56500C1F397 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B36D22D62C082FF7000EE794 /* WeSplit.app */,
+				B3480DB12C2AD56500C1F397 /* WeSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B36D22D82C082FF7000EE794 /* WeSplit */ = {
+		B3480DB32C2AD56500C1F397 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				B36D22D92C082FF7000EE794 /* WeSplitApp.swift */,
-				B36D22DB2C082FF7000EE794 /* ContentView.swift */,
-				B371129E2C09E1B400199885 /* Tutoriales ejemplos */,
-				B36D22DD2C082FF8000EE794 /* Assets.xcassets */,
-				B36D22DF2C082FF8000EE794 /* Preview Content */,
+				B3480DB42C2AD56500C1F397 /* WeSplitApp.swift */,
+				B3480DB62C2AD56500C1F397 /* ContentView.swift */,
+				B3480DB82C2AD56700C1F397 /* Assets.xcassets */,
+				B3480DBA2C2AD56700C1F397 /* Preview Content */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		B36D22DF2C082FF8000EE794 /* Preview Content */ = {
+		B3480DBA2C2AD56700C1F397 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B36D22E02C082FF8000EE794 /* Preview Assets.xcassets */,
+				B3480DBB2C2AD56700C1F397 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B371129E2C09E1B400199885 /* Tutoriales ejemplos */ = {
-			isa = PBXGroup;
-			children = (
-				B371129C2C09E03F00199885 /* Crear formulario.swift */,
-				B371129F2C09E57600199885 /* Barra navegacion.swift */,
-				B37112A12C09F2AC00199885 /* Modificador de estado.swift */,
-				B37112A32C0A33EF00199885 /* Estado enlaces.swift */,
-				B37112A52C0A532400199885 /* VistasBucle.swift */,
-			);
-			path = "Tutoriales ejemplos";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B36D22D52C082FF7000EE794 /* WeSplit */ = {
+		B3480DB02C2AD56500C1F397 /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B36D22E42C082FF8000EE794 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = B3480DBF2C2AD56700C1F397 /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				B36D22D22C082FF7000EE794 /* Sources */,
-				B36D22D32C082FF7000EE794 /* Frameworks */,
-				B36D22D42C082FF7000EE794 /* Resources */,
+				B3480DAD2C2AD56500C1F397 /* Sources */,
+				B3480DAE2C2AD56500C1F397 /* Frameworks */,
+				B3480DAF2C2AD56500C1F397 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -107,25 +84,25 @@
 			);
 			name = WeSplit;
 			productName = WeSplit;
-			productReference = B36D22D62C082FF7000EE794 /* WeSplit.app */;
+			productReference = B3480DB12C2AD56500C1F397 /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B36D22CE2C082FF7000EE794 /* Project object */ = {
+		B3480DA92C2AD56500C1F397 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					B36D22D52C082FF7000EE794 = {
+					B3480DB02C2AD56500C1F397 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = B36D22D12C082FF7000EE794 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = B3480DAC2C2AD56500C1F397 /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,47 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = B36D22CD2C082FF7000EE794;
-			productRefGroup = B36D22D72C082FF7000EE794 /* Products */;
+			mainGroup = B3480DA82C2AD56500C1F397;
+			productRefGroup = B3480DB22C2AD56500C1F397 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B36D22D52C082FF7000EE794 /* WeSplit */,
+				B3480DB02C2AD56500C1F397 /* WeSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B36D22D42C082FF7000EE794 /* Resources */ = {
+		B3480DAF2C2AD56500C1F397 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36D22E12C082FF8000EE794 /* Preview Assets.xcassets in Resources */,
-				B36D22DE2C082FF8000EE794 /* Assets.xcassets in Resources */,
+				B3480DBC2C2AD56700C1F397 /* Preview Assets.xcassets in Resources */,
+				B3480DB92C2AD56700C1F397 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B36D22D22C082FF7000EE794 /* Sources */ = {
+		B3480DAD2C2AD56500C1F397 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36D22DC2C082FF7000EE794 /* ContentView.swift in Sources */,
-				B36D22DA2C082FF7000EE794 /* WeSplitApp.swift in Sources */,
-				B37112A02C09E57600199885 /* Barra navegacion.swift in Sources */,
-				B371129D2C09E03F00199885 /* Crear formulario.swift in Sources */,
-				B37112A62C0A532400199885 /* VistasBucle.swift in Sources */,
-				B37112A42C0A33EF00199885 /* Estado enlaces.swift in Sources */,
-				B37112A22C09F2AC00199885 /* Modificador de estado.swift in Sources */,
+				B3480DB72C2AD56500C1F397 /* ContentView.swift in Sources */,
+				B3480DB52C2AD56500C1F397 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B36D22E22C082FF8000EE794 /* Debug */ = {
+		B3480DBD2C2AD56700C1F397 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		B36D22E32C082FF8000EE794 /* Release */ = {
+		B3480DBE2C2AD56700C1F397 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +264,7 @@
 			};
 			name = Release;
 		};
-		B36D22E52C082FF8000EE794 /* Debug */ = {
+		B3480DC02C2AD56700C1F397 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -312,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kontroldesignstudio.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kontrol-Design-Studios.WeSplit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		B36D22E62C082FF8000EE794 /* Release */ = {
+		B3480DC12C2AD56700C1F397 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -340,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kontroldesignstudio.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kontrol-Design-Studios.WeSplit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B36D22D12C082FF7000EE794 /* Build configuration list for PBXProject "WeSplit" */ = {
+		B3480DAC2C2AD56500C1F397 /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B36D22E22C082FF8000EE794 /* Debug */,
-				B36D22E32C082FF8000EE794 /* Release */,
+				B3480DBD2C2AD56700C1F397 /* Debug */,
+				B3480DBE2C2AD56700C1F397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B36D22E42C082FF8000EE794 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		B3480DBF2C2AD56700C1F397 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B36D22E52C082FF8000EE794 /* Debug */,
-				B36D22E62C082FF8000EE794 /* Release */,
+				B3480DC02C2AD56700C1F397 /* Debug */,
+				B3480DC12C2AD56700C1F397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B36D22CE2C082FF7000EE794 /* Project object */;
+	rootObject = B3480DA92C2AD56500C1F397 /* Project object */;
 }

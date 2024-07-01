@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  OcultandoTeclado
 //
-//  Created by Raúl Gallego Alonso on 17/6/24.
+//  Created by Raúl Gallego Alonso on 1/7/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var checkAmount = 0.0
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 20
-    @FocusState private var amountItFocused: Bool // añadimos una nueva propiedad para crear un boton.
+    @FocusState private var amountItFocused: Bool // añadimos una nueva propiedad para crear un boton y que puede interactua con  'TextField' y 'TextEditor'
     
     let tipPercentages = [10, 15, 20, 25, 0]
     

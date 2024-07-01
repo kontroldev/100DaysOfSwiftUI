@@ -25,7 +25,3 @@ Este repositorio contiene ejemplos y proyectos relacionados con el **Curso de Fo
 
 [Paul Hudson - Curso de SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
-
