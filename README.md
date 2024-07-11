@@ -17,10 +17,6 @@ Este repositorio contiene ejemplos y proyectos relacionados con el **Curso de Fo
 
 - kontroldev - Desarrollador y creador del repositorio.
 
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si encuentras errores o deseas agregar más ejemplos, no dudes en hacer una solicitud de extracción.
-
 ## Enlace del curso
 
 [Paul Hudson - Curso de SwiftUI](https://www.hackingwithswift.com/100/swiftui)
