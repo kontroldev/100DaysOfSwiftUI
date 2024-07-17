@@ -25,6 +25,7 @@ struct ContentView: View {
             .ignoresSafeArea() // elimina los bordes blancos para pintarlos todos.
             
             VStack {
+                Spacer()
                 Text("Guess the flag")
                     .font(.largeTitle.bold())
                     .foregroundStyle(.white)
@@ -32,7 +33,6 @@ struct ContentView: View {
                 VStack(spacing: 15) {  //ponemos esta vista vereticar dentro de la otra vista vertical para contorlar mejor los espacios entre puento.
                     
                     VStack {
-                        Spacer()
                         Text("Tap the flag of")
                             .foregroundStyle(.secondary)
                             .font(.subheadline.weight(.heavy))
