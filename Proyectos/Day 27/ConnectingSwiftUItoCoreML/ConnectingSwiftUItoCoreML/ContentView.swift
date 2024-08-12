@@ -9,7 +9,7 @@ import CoreML
 import SwiftUI
 
 struct ContentView: View {
-    @State private var wakeUp = Date.now
+    @State private var wakeUp = defaultWakeTime
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
     
@@ -17,33 +17,46 @@ struct ContentView: View {
     @State private var alertMessage = ""
     @State private var showingAlert = false
     
+    static var defaultWakeTime: Date {
+        var components = DateComponents()
+        components.hour = 7
+        components.minute = 0
+        return Calendar.current.date(from: components) ?? .now
+    }
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                Text("when do you want to wake up?")
-                    .font(.headline) // es uno de los estilos de texto que SwiftUI ofrece, diseñado para ser utilizado en encabezados o subtítulos importantes dentro de la interfaz de usuario
+            Form {
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("when do you want to wake up?")
+                        .font(.headline) // es uno de los estilos de texto que SwiftUI ofrece, diseñado para ser utilizado en encabezados o subtítulos importantes dentro de la interfaz de usuario
+                    
+                    DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
+                        .labelsHidden() // se utiliza para ocultar las etiquetas asociadas con ciertos controles de entrada de datos.
+                }
                 
-                DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
-                    .labelsHidden() // se utiliza para ocultar las etiquetas asociadas con ciertos controles de entrada de datos.
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Desired amount of sleep")
+                        .font(.headline)
+                    
+                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
+                }
                 
-                Text("Desired amount of sleep")
-                    .font(.headline)
-                
-                Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
-                
-                Text("Daily coffee intake")
-                    .font(.headline)
-                
-                Stepper("\(coffeeAmount) cup(s)", value: $coffeeAmount, in: 1...20)
-            }
-            .navigationTitle("BetterRest")
-            .toolbar {
-                Button("Calculate", action: calculateBedtime)
-            }
-            .alert(alertTitle, isPresented: $showingAlert) {
-                Button("OK") { }
-            } message: {
-                Text(alertMessage)
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Daily coffee intake")
+                        .font(.headline)
+                    
+                    Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cup", value: $coffeeAmount, in: 1...20)
+                }
+                .navigationTitle("BetterRest")
+                .toolbar {
+                    Button("Calculate", action: calculateBedtime)
+                }
+                .alert(alertTitle, isPresented: $showingAlert) {
+                    Button("OK") { }
+                } message: {
+                    Text(alertMessage)
+                }
             }
         }
     }
